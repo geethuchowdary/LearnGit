@@ -1,8 +1,7 @@
+name: "my first action"
 on:
   push:
      branches: ["main"]
-
-
 jobs:
    display-contents:
      runs-on: ubuntu-latest
